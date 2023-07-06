@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bidding Platform</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Bidding Platform</h1>
+
+    <h2>Item Description</h2>
+    <p>This is the description of the item you're bidding on.</p>
+
+    <h2>Current Bids</h2>
+    <ul id="bidList">
+        <!-- Bids will be dynamically added here -->
+    </ul>
+
+    <h2>Place a Bid</h2>
+    <form id="bidForm">
+        <input type="number" id="bidAmount" min="1" placeholder="Bid Amount" required>
+        <input type="submit" value="Place Bid">
+    </form>
+</body>
+</html>
